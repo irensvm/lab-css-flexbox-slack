@@ -5,3 +5,193 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+/*general*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #5b5e6d;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration:none;
+    color:#5b5e6d;
+    
+}
+#nav-logo{
+    width: 100px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+.logos img{
+     width: 600px;}
+
+@media (max-width: 768px) {
+
+    .company {
+        background-color: #F4F3F4;
+        text-align: center;
+    }
+
+    .tryit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .whatis {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button-purple {
+        width: 100%;
+        background-color: #192592;
+        color: white;
+        border: none;
+    }
+
+    .logos img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 60px;
+    }
+  
+
+    .slack-logo {
+        width: 100%;
+        margin: 0;
+    }
+
+    .mini-footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+
+}
+
+
+@media screen and (min-width: 960px) {
+    body {
+        margin: 0;
+    }
+
+    .menu-ppal .button-m {
+        margin: 0;
+    }
+
+    .button-m {
+        border: solid 2px #2C303F;
+    }
+
+    .whatis h1 {
+        text-align: left;
+    }
+
+    .whatis p {
+        text-align: left;
+    }
+
+
+    .company {
+        background-color: #F4F3F4;
+    }
+
+    #disc-button {
+        background-color: white;
+        color: #192592;
+    }
+
+    .button-purple {
+        width: 100%;
+        background-color: #192592;
+        color: white;
+        border: none;
+    }
+
+    .logos {
+        margin: 0;
+    }
+
+    .mini-footer {
+        margin: 0;
+    }
+
+    .socialmedia {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 960px) {}
+
+@media screen and (min-width: 1200px) {
+    body {
+        margin: 0;
+    }
+
+    .menu-ppal .button-m {
+        margin: 0;
+    }
+
+    .button-m {
+        border: solid 2px #2C303F;
+    }
+
+    .whatis h1 {
+        text-align: left;
+    }
+
+    .whatis p {
+        text-align: left;
+    }
+
+
+    .company {
+        background-color: #F4F3F4;
+    }
+
+    #disc-button {
+        background-color: white;
+        color: #192592;
+    }
+
+    .button-purple {
+        width: 100%;
+        background-color: #192592;
+        color: white;
+        border: none;
+    }
+
+    .logos {
+     }
+
+    .mini-footer {
+        margin: 0;
+    }
+
+    .socialmedia {
+        margin: 0;
+    }
+
+    footer {
+        margin: 0;
+    }
+}
